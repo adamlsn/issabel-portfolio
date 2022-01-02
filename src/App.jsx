@@ -1,5 +1,7 @@
+import About from "./components/about/about";
+
 const App = () => {
-  return <div>Hello world!</div>;
+  return <div><About/></div>;
 };
 
 export default App;
