@@ -1,4 +1,5 @@
 import "./about.css"
+import Portfolio from "../../img/portfolio.jpg"
 
 const About = () => {
     return (
@@ -23,7 +24,10 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="about-right">right</div>
+            <div className="about-right">
+                <div className="img-bg"></div>
+                <img src={Portfolio} alt="" className="about-image" />
+            </div>
         </div>
     )
 }
