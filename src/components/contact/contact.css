@@ -1,0 +1,97 @@
+.contact{
+    height: 100vh;
+    position: relative;
+}
+
+.contact-background{
+    width: 20px;
+    height: 100%;
+    background-color: palevioletred;
+    position: absolute;
+}
+
+.contact-wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.contact-left{
+    flex: 1;
+}
+
+.contact-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-title{
+    font-size: 60px;
+    width: 80%;
+}
+
+.contact-icon{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.contact-info-item:hover{
+    color: palevioletred;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contact-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-description{
+    font-weight: 300;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    margin: 10px 0px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    resize: none;
+}
+
+button{
+    border: solid 2px palevioletred;
+    padding: 15px;
+    background-color: white;
+    color: palevioletred;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover{
+    color: white;
+    background-color: palevioletred;
+}

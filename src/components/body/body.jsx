@@ -12,8 +12,12 @@ const Body = () => {
 
             <div className="body-right">
                 <h1 className="body-title">About Me</h1>
+
                 <p className="body-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                
                 <p className="body-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus perspiciatis quasi, delectus quam nulla doloremque illo numquam, labore nobis pariatur modi aliquam at ullam ipsa, voluptate amet deleniti libero praesentium!</p>
+
+                
             </div>
         </div>
     )
