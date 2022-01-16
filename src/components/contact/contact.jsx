@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons"
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faShoppingBag } from "@fortawesome/free-solid-svg-icons"
+import { faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 import "./contact.css"
 
@@ -11,21 +11,23 @@ const Contact = () => {
             <div className="contact-wrapper">
                 <div className="contact-left">
                     <h1 className="contact-title">
-                        Reach Out
+                        My Links
                     </h1>
                     <div className="contact-info">
-                        <div className="contact-info-item">
-                            <FontAwesomeIcon icon={faPhone} className="contact-icon"></FontAwesomeIcon>
-                            555-555-5555
-                        </div>
-                        <div className="contact-info-item">
-                            <FontAwesomeIcon icon={faEnvelope} className="contact-icon"></FontAwesomeIcon>
-                            email@email.com
-                        </div>
-                        <div className="contact-info-item">
-                            <a href="https://www.linkedin.com/in/issabel-schultz-1b3068137/">
+                        <div>
+                            <a href="https://www.linkedin.com/in/issabel-schultz-1b3068137/"  className="contact-info-item">
                             <FontAwesomeIcon icon={faLinkedin} className="contact-icon"></FontAwesomeIcon>
                             LinkedIn</a>
+                        </div>
+                        <div>
+                            <a href="https://www.depop.com/issabelschultz/"  className="contact-info-item">
+                            <FontAwesomeIcon icon={faShoppingBag} className="contact-icon"></FontAwesomeIcon>
+                            Depop</a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/issyschultz/?hl=en" className="contact-info-item">
+                            <FontAwesomeIcon icon={faInstagram} className="contact-icon"></FontAwesomeIcon>
+                            Instagram</a>
                         </div>
                     </div>
                 </div>
