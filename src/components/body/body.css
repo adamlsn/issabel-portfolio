@@ -43,3 +43,42 @@
 .body-description{
     font-weight: 300;
 }
+
+.body-resume{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body-resume-text{
+    width: 70%;
+}
+
+.resume-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.body-download-svg{
+    width: 120px;
+    height: 120px;
+}
+
+.resume-icon{
+    font-size: 100px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: palevioletred;
+}
+
+.link{
+    color: palevioletred;
+}
+
+.link:hover{
+    font-weight: 500;
+    border-bottom: 2px solid palevioletred;
+}
