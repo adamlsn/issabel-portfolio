@@ -89,3 +89,17 @@
     top: 0;
     right: 0;
 }
+
+@media screen and (max-width: 768px){
+    .about{
+        flex-direction: column;
+    }
+
+    .about-left-wrapper{
+        padding: 10px;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+}

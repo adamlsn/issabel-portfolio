@@ -107,3 +107,23 @@ button:hover{
     color: white;
     background-color: palevioletred;
 }
+
+@media screen and (max-width: 768px){
+    .contact-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .contact-background{
+        height: 125vh;
+    }
+
+    .contact-title{
+        font-size: 30px;
+    }
+    
+    .contact-info-item{
+        margin: 20px 0px;
+        width: 100%;
+    }
+}

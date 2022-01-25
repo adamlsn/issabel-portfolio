@@ -82,3 +82,29 @@ a:hover{
     font-weight: 500;
     border-bottom: 2px solid palevioletred;
 }
+
+@media screen and (max-width: 768px){
+    .body{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 175px
+    }
+
+    .body-left{
+        width: 100%;
+    }
+
+    .body-right{
+        margin-bottom: 100px;
+    }
+
+    .body-card{
+        box-shadow: none;
+        height: 40vh;
+    }
+
+    .body-right{
+        padding: 20px;
+    }
+}
